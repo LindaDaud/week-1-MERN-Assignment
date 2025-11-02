@@ -13,13 +13,21 @@ MongoDB Community Server running locally (Ensuring it is running)
 Clone and change directory to the project folder
 
 Install MongoDB driver:
+```sh
 npm install mongodb
+```
 
 Run the script to create the database and collections with sample data
+```sh
 node insert_books.js 
+```
 or
+```sh
 mongosh --file insert_books.js
+```
 
 Run the quries script
+```sh
 node queries.js
+```
 
